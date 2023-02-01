@@ -1,0 +1,93 @@
+.main-card {
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.article-col {
+    padding: 4.8rem;
+}
+
+.sedans {
+    background-color: var(--bright-orange);
+    border-radius: 9px 0 0 9px;
+}
+
+
+.suvs {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 9px 9px 0;
+}
+
+.image {
+    margin-bottom: 3.2rem;
+}
+
+.heading-primary {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin-bottom: 3.2rem;
+    font-weight: 700;
+    color: var(--very-light-gray);
+    font-family: "Big Shoulders Display", cursive;
+  }
+  
+  .description {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8;
+    color: var(--transparent-white);
+    margin-bottom: 4.8rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    background-color: var(--very-light-gray);
+    padding: 1rem 2.4rem;
+    border-radius: 100px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease-in-out;
+}
+
+.sedans .btn:link,
+.sedans .btn:visited {
+    color: var(--bright-orange);
+}
+.suvs .btn:link,
+.suvs .btn:visited {
+    color: var(--dark-cyan);
+}
+.luxury .btn:link,
+.luxury .btn:visited {
+    color: var(--very-dark-cyan);
+}
+
+.sedans .btn:hover,
+.suvs .btn:hover,
+.luxury .btn:hover,
+.sedans .btn:active,
+.suvs .btn:active,
+.luxury .btn:active {
+    background-color: transparent;
+    border: 1px solid var(--very-light-gray);
+    color: var(--very-light-gray);
+}
+
+.attribution {
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}

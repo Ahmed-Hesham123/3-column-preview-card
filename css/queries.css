@@ -1,0 +1,64 @@
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+    html {
+      font-size: 56.25%;
+      position: relative;
+    }
+}
+
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+    html {
+      font-size: 50%;
+    }
+    .container {
+        max-width: 95%;
+    }
+}  
+
+/**************************/
+/* BELOW 747px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 46.7rem) {
+    .container {
+        max-width: 90%;
+        margin: 10rem auto;
+    }
+    .grid-3--cols {
+        grid-template-columns: 1fr;
+    }
+    .sedans {
+        border-radius: 9px 9px 0 0;
+    }
+    .luxury {
+        border-radius: 0 0 9px 9px;
+    }
+    .article-col {
+        padding: 3.2rem;
+    }
+    .heading-primary {
+        font-size: 2.4rem;
+        margin-bottom: 2.4rem;
+    }
+    .discription {
+        margin-bottom: 2.4rem;
+    }
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34rem) {
+    .container {
+        max-width: 95%;
+    }
+}
